@@ -21,7 +21,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #SUPPORT_GROUP: This is used for normal users for getting help if they don't understand how to use the bot --⚠ OPTIONAL--
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "-1002045544935")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "")
 
 #Port
 PORT = os.environ.get("PORT", "8050")
@@ -34,11 +34,11 @@ VERIFY_DB = os.environ.get("VERIFY_DB", "")
 DBV_NAME = os.environ.get("VERIFY_DBNAME", "")
 
 
-TOKEN_PIC = os.environ.get("TOKEN_PIC", "https://graph.org/file/f03274dfad4979c8f95d8-b0f06dbc9d0d0edb41.jpg")
+TOKEN_PIC = os.environ.get("TOKEN_PIC", "")
 
 
 #Tutorial video for the user of your shortner on how to download.
-TUT_VID = os.environ.get("TUT_VID","https://t.me/ChipsTutorial/7")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/+wekKcN1tjbAxY2U1")
 
 
 START_PIC = os.environ.get("START_PIC", "https://graph.org/file/8263af1da9ac363d8c580-a8912d879836f10ccd.jpg")
