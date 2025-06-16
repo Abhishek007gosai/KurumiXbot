@@ -27,8 +27,8 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "")
 PORT = os.environ.get("PORT", "8050")
 
 #Database --⚠️ REQUIRED--
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://gutsxrobot:4LfFzZZ4T3VpJzzW@cluster0.r4wywvl.mongodb.net/")
-DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
+DB_URL = os.environ.get("DB_URL", "")
+DB_NAME = os.environ.get("DATABASE_NAME", "")
 
 VERIFY_DB = os.environ.get("VERIFY_DB", "mongodb+srv://toukaxrobot:T6mezH0agfSgyEs0@toukabot.kwabl3g.mongodb.net/?retryWrites=true&w=majority&appName=Toukabot")
 DBV_NAME = os.environ.get("VERIFY_DBNAME", "Toukabot")
