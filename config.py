@@ -31,7 +31,7 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://gutsxrobot:4LfFzZZ4T3VpJzzW@clu
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 VERIFY_DB = os.environ.get("VERIFY_DB", "mongodb+srv://kayaxrobot:yzSgHQLteJCTXUqK@cluster0.ltk8k8h.mongodb.net/?")
-DBV_NAME = os.environ.get("VERIFY_DBNAME", "Cluster0")
+DBV_NAME = os.environ.get("VERIFY_DBNAME", "cluster0")
 
 
 TOKEN_PIC = os.environ.get("TOKEN_PIC", "")
