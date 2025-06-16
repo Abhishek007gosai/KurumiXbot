@@ -28,7 +28,7 @@ PORT = os.environ.get("PORT", "8050")
 
 #Database --⚠️ REQUIRED--
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://gutsxrobot:4LfFzZZ4T3VpJzzW@cluster0.r4wywvl.mongodb.net/")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
 VERIFY_DB = os.environ.get("VERIFY_DB", "mongodb+srv://kayaxrobot:yzSgHQLteJCTXUqK@cluster0.ltk8k8h.mongodb.net/?")
 DBV_NAME = os.environ.get("VERIFY_DBNAME", "cluster0")
