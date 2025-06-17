@@ -407,7 +407,7 @@ async def add_premium_user_command(client, msg):
 
 
 # Command to remove premium user
-@Bot.on_message(filters.command('remove_premium') & filters.private & admin)
+@Bot.on_message(filters.command('remove_premium') & filters.private)
 async def pre_remove_user(client: Client, msg: Message):
     if len(msg.command) != 2:
         await msg.reply_text("useage: /remove_premium user_id ")
@@ -421,7 +421,7 @@ async def pre_remove_user(client: Client, msg: Message):
 
 
 # Command to list active premium users
-@Bot.on_message(filters.command('premium_users') & filters.private & admin)
+@Bot.on_message(filters.command('premium_users') & filters.private)
 async def list_premium_users_command(client, message):
     # Define IST timezone
     ist = timezone("Asia/Kolkata")
@@ -484,7 +484,7 @@ async def list_premium_users_command(client, message):
 
 #=====================================================================================##
 
-@Bot.on_message(filters.command("count") & filters.private & admin)
+@Bot.on_message(filters.command("count") & filters.private)
 async def total_verify_count_cmd(client, message: Message):
     total = await db.get_total_verify_count()
     await message.reply_text(f"Tᴏᴛᴀʟ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴋᴇɴs ᴛᴏᴅᴀʏ: <b>{total}</b>")
