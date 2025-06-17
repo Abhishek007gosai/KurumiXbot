@@ -357,7 +357,7 @@ async def check_plan(client: Client, message: Message):
 
 #=====================================================================================##
 # Command to add premium user
-@Bot.on_message(filters.command('addpremium') & filters.private & admin)
+@Bot.on_message(filters.command('addpremium') & filters.private)
 async def add_premium_user_command(client, msg):
     if len(msg.command) != 4:
         await msg.reply_text(
