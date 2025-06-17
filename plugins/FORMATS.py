@@ -1,18 +1,15 @@
 on_pic = "https://telegra.ph/file/5593d624d11d92bceb48e.jpg"
 off_pic = "https://telegra.ph/file/0d9e590f62b63b51d4bf9.jpg"
-files_cmd_pic = "https://telegra.ph/file/d44f46054250a73053614.jpg"
-autodel_cmd_pic = "https://telegra.ph/file/a64533814021b40057ccd.jpg"
+files_cmd_pic = "https://litter.catbox.moe/30rzzn.jpg"
+autodel_cmd_pic = "https://files.catbox.moe/czyigc.jpg"
 
 
 SET_SHORTENER_CMD_TXT = "sʜᴏʀᴛɴᴇʀ ɪs {shortener_status}. ᴜsᴇ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄᴏɴғɪɢᴜʀᴇ ᴛʜᴇ sʜᴏʀᴛɴᴇʀ."
 
 #start message
-START_MSG = """<b>›› ʜᴇʏ!!, {mention} ~
-
-<blockquote expandable>You woke me up!\nReady to dive into some chaos and grab what you need?\n\nFiles, fun and a whole lotta energy—let’s roll!.</blockquote></b>"""
+START_MSG = """<b><blockquote>Hᴇʏ! {mention} Wᴇʟᴄᴏᴍᴇ Tᴏ Cᴏᴍᴍᴜɴɪᴛʏ Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ ʏᴏᴜ ᴄᴀɴ ᴅᴏ sᴏ ʙʏ sᴜʙsᴄʀɪʙɪɴɢ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ</blockquote></a>\n<blockquote expandable></a>Gᴜɪᴅᴇ Tᴏ Wᴀᴛᴄʜ Vɪᴅᴇᴏ Wɪᴛʜ Sᴜʙᴛɪᴛʟᴇs Iғ Sᴜʙᴛɪᴛʟᴇs Nᴏᴛ Sʜᴏᴡɪɴɢ\n</a>❏ ᴛᴜᴛᴏʀɪᴀʟ\n</a>├ <a href="https://telegra.ph/HOW-TO-WATCH-04-20-3">Cʟɪᴄᴋ Hᴇʀᴇ </a></blockquote expandable></a>\n<blockquote>❏ Hᴇʟᴘʟɪɴᴇ\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</blockquote></a>\n<blockquote>Tʜᴀɴᴋs Fᴏʀ ʏᴏᴜʀ Sᴜᴘᴘᴏʀᴛ</blockquote></a>\nHᴇʟᴘʟɪɴᴇ ʙᴏᴛ @EternalsHelplineBot</b>"""
 #Force sub message 
-FORCE_MSG = """<b><blockquote>» ʜᴇʏ {mention} ×,</blockquote>\nʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs..!
-</b>"""
+FORCE_MSG = """<b><blockquote>Hᴇʟʟᴏ!! {first} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</blockquote></a>Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, Pʟᴇᴀsᴇ sᴜʙsᴄʀɪʙᴇ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ʙᴏᴛ ᴀɢᴀɪɴ</a>\nFᴏʀ Oɴɢᴏɪɴɢ Aɴɪᴍᴇ ~ <a href="https://t.me/Anime_Ongoing_Airing">ᴏɴɢᴏɪɴɢ ᴀɪʀɪɴɢs</a></b>"""
 
 CMD_TXT = """<b>» ʙᴀsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :
 
