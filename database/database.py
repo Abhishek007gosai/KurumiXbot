@@ -514,7 +514,7 @@ db = Rohit(DB_URL, DB_NAME)
 
 
 # Create an async client with Motor
-dbclient = motor.motor_asyncio.AsyncIOMotorClient(DB_URI)
+dbclient = motor.motor_asyncio.AsyncIOMotorClient(DB_URL)
 database = dbclient[DB_NAME]
 collection = database['premium-users']
 
