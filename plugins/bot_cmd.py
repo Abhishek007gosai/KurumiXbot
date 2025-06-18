@@ -17,20 +17,16 @@ from database.database import db
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 #.....................
 from pyrogram.filters import create
-from config import OWNER_ID, ADMIN_IDS
+from database import get_admins
 
-# Combine owner and admin IDs
-ADMIN_USERS = [OWNER_ID] + ADMIN_IDS
+async def admin_filter_func(_, __, message):
+    if not message.from_user:
+        return False
+    admins = await get_admins()
+    return message.from_user.id in admins
 
-def admin_filter(_, __, message):
-    return message.from_user and message.from_user.id in ADMIN_USERS
+admin_filter = create(admin_filter_func)
 
-admin = create(admin_filter)
-
-REPLY_ERROR = """ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇssᴀɢᴇ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ sᴘᴀᴄᴇs."""
-# Define a global variable to store the cancel state
-is_canceled = False
-cancel_lock = Lock()
 #............................
 #Settings for banned users..
 @Bot.on_message(banUser & filters.private & filters.command(['start', 'help']))
