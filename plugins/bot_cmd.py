@@ -15,12 +15,23 @@ from plugins.FORMATS import HELP_TEXT, BAN_TXT, CMD_TXT, USER_CMD_TXT, FSUB_CMD_
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
 from database.database import db
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+#.....................
+from pyrogram.filters import create
+from config import OWNER_ID, ADMIN_IDS
+
+# Combine owner and admin IDs
+ADMIN_USERS = [OWNER_ID] + ADMIN_IDS
+
+def admin_filter(_, __, message):
+    return message.from_user and message.from_user.id in ADMIN_USERS
+
+admin = create(admin_filter)
 
 REPLY_ERROR = """ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇssᴀɢᴇ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ sᴘᴀᴄᴇs."""
 # Define a global variable to store the cancel state
 is_canceled = False
 cancel_lock = Lock()
-
+#............................
 #Settings for banned users..
 @Bot.on_message(banUser & filters.private & filters.command(['start', 'help']))
 async def handle_banuser(client, message):
