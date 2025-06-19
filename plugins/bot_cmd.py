@@ -17,7 +17,7 @@ from database.database import db
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 #.....................
 from pyrogram.filters import create
-from database import get_admins
+from database.admins import get_admins
 
 async def admin_filter_func(_, __, message):
     if not message.from_user:
