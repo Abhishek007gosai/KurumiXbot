@@ -15,17 +15,7 @@ from plugins.FORMATS import HELP_TEXT, BAN_TXT, CMD_TXT, USER_CMD_TXT, FSUB_CMD_
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
 from database.database import db
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-#.....................
-from pyrogram.filters import create
-from database.admins import get_admins
-
-async def admin_filter_func(_, __, message):
-    if not message.from_user:
-        return False
-    admins = await get_admins()
-    return message.from_user.id in admins
-
-admin_filter = create(admin_filter_func)
+from database.db_premium import *
 
 #............................
 #Settings for banned users..
