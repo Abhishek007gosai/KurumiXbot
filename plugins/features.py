@@ -27,8 +27,8 @@ async def top_anime_command(client: Client, message: Message):
         keyboard = [[InlineKeyboardButton(f"{style_anime_title(anime.get('title'))}", callback_data=f'detail_{anime.get("mal_id")}')] 
                     for anime in top_anime_list[:10]]
         keyboard.extend([
-            [InlineKeyboardButton("• ғᴏʀ ", url='t.me/umseen'),
-             InlineKeyboardButton(" ᴍᴏʀᴇ •", url='t.me/umseen')],
+            [InlineKeyboardButton("• ᴏᴡɴᴇʀ ", url='t.me/EternalsHelplineBot'),
+             InlineKeyboardButton(" ᴍᴏʀᴇ •", url='t.me/AnimeNexusNetwork/158')],
             [InlineKeyboardButton("•  ᴄʟᴏsᴇ  •", callback_data='close')]
              ])
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -53,8 +53,8 @@ async def weekly_anime_command(client: Client, message: Message):
         keyboard = [[InlineKeyboardButton(f"{style_anime_title(anime.get('title'))}", callback_data=f'detail_{anime.get("mal_id")}')] 
                     for anime in weekly_anime_list[:10]]
         keyboard.extend([
-            [InlineKeyboardButton("• ғᴏʀ ", url='t.me/umseen'),
-             InlineKeyboardButton(" ᴍᴏʀᴇ •", url='t.me/umseen')],
+            [InlineKeyboardButton("• ᴏᴡɴᴇʀ ", url='t.me/EternalsHelplineBot'),
+             InlineKeyboardButton(" ᴍᴏʀᴇ •", url='t.me/AnimeNexusNetwork/158')],
             [InlineKeyboardButton("•  ᴄʟᴏsᴇ  •", callback_data='close')]
              ])
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -84,8 +84,8 @@ async def search_anime_command(client: Client, message: Message):
         keyboard = [[InlineKeyboardButton(f"{get_anime_emoji(anime.get('title'))} {anime.get('title')}", callback_data=f'detail_{anime.get("mal_id")}')] 
                     for anime in search_results[:10]]
         keyboard.extend([
-            [InlineKeyboardButton("• ғᴏʀ ", url='t.me/umseen'),
-             InlineKeyboardButton(" ᴍᴏʀᴇ •", url='t.me/umseen')],
+            [InlineKeyboardButton("• ᴏᴡɴᴇʀ ", url='t.me/EternalsHelplineBot'),
+             InlineKeyboardButton(" ᴍᴏʀᴇ •", url='t.me/AnimeNexusNetwork/158')],
             [InlineKeyboardButton("•  ᴄʟᴏsᴇ  •", callback_data='close')]
              ])
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -578,7 +578,7 @@ async def set_shortener(client, message):
             (
                 f"❌ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀᴇᴅ:\n\n"
                 f"ʀᴇᴀsᴏɴ: {e}\n\n"
-                f"📩 ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ: [𝐒ᴀɴᴊɪ 𝐒aᴍᴀ](https://t.me/urr_sanjiii)"
+                f"📩 ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ: [ᴏᴡɴᴇʀ](https://t.me/EternalsHelplineBot)"
             ),
             reply_markup=reply_markup
         )
