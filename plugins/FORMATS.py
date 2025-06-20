@@ -23,7 +23,8 @@ CMD_TXT = """<b>» ʙᴀsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :
 
 <b>/status :</b> ᴠɪᴇᴡ ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs"""
 
-BAN_TXT = "<b><blockquote> <a href="https://telegra.ph/You-Are-Stalker-Stay-Away-From-Us-05-12">ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ʙᴇᴄᴏᴜsᴇ ʏᴏᴜ'ʀᴇ sᴛᴀʟᴋᴇʀ</a></blockquote></b>"
+BAN_TXT = "<b><blockquote> <a href=\"https://telegra.ph/You-Are-Stalker-Stay-Away-From-Us-05-12\">ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ʙᴇᴄᴏᴜsᴇ ʏᴏᴜ'ʀᴇ sᴛᴀʟᴋᴇʀ</a></blockquote></b>"
+
 
 HELP_TEXT = """<b><blockquote><a>Hᴇʟʟᴏ!! Wᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</a>\nYᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</a>\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</a>\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ</a></blockquote>\nHᴇʟᴘʟɪɴᴇ ʙᴏᴛ @EternalsHelplineBot</a>\n<i>◈ sᴛɪʟʟ ʏᴏᴜ ʜᴀᴠᴇ ᴅᴏᴜʙᴛ ᴀɴᴅ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ</i></b>"""
 
