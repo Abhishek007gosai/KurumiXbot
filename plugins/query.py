@@ -178,29 +178,29 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             print(f"! Error Occurred on callback data = 'setting' : {e}")
 
 
-        elif data == "stats":
-        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), "<b>» ᴘʟᴇᴀsᴇ wᴀɪᴛ ᴀ sᴇᴄᴏɴᴅ!!</b>"))
-        try:
-            total_fsub = len(await db.get_all_channels())
-            total_admin = len(await db.get_all_admins())
-            total_ban = len(await db.get_ban_users())
-            autodel_mode = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_auto_delete() else 'ᴅɪsᴀʙʟᴇᴅ'
-            protect_content = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_protect_content() else 'ᴅɪsᴀʙʟᴇᴅ'
-            hide_caption = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_hide_caption() else 'ᴅɪsᴀʙʟᴇᴅ'
-            chnl_butn = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_channel_button() else 'ᴅɪsᴀʙʟᴇᴅ'
-            reqfsub = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_request_forcesub() else 'ᴅɪsᴀʙʟᴇᴅ'
+      elif data == "stats":
+          await query.edit_message_media(InputMediaPhoto(random.choice(PICS), "<b>» ᴘʟᴇᴀsᴇ wᴀɪᴛ ᴀ sᴇᴄᴏɴᴅ!!</b>"))
+          try:
+              total_fsub = len(await db.get_all_channels())
+              total_admin = len(await db.get_all_admins())
+              total_ban = len(await db.get_ban_users())
+              autodel_mode = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_auto_delete() else 'ᴅɪsᴀʙʟᴇᴅ'
+              protect_content = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_protect_content() else 'ᴅɪsᴀʙʟᴇᴅ'
+              hide_caption = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_hide_caption() else 'ᴅɪsᴀʙʟᴇᴅ'
+              chnl_butn = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_channel_button() else 'ᴅɪsᴀʙʟᴇᴅ'
+              reqfsub = 'ᴇɴᴀʙʟᴇᴅ' if await db.get_request_forcesub() else 'ᴅɪsᴀʙʟᴇᴅ'
 
-            await query.edit_message_media(
-                InputMediaPhoto(random.choice(PICS),
-                                STATS_TXT.format(
-                                    total_fsub=total_fsub,
-                                    total_admin=total_admin,
-                                    total_ban=total_ban,
-                                    autodel_mode=autodel_mode,
-                                    protect_content=protect_content,
-                                    hide_caption=hide_caption,
-                                    chnl_butn=chnl_butn,
-                                    reqfsub=reqfsub
+              await query.edit_message_media(
+                  InputMediaPhoto(random.choice(PICS),
+                                  STATS_TXT.format(
+                                      total_fsub=total_fsub,
+                                      total_admin=total_admin,
+                                      total_ban=total_ban,
+                                      autodel_mode=autodel_mode,
+                                      protect_content=protect_content,
+                                      hide_caption=hide_caption,
+                                      chnl_butn=chnl_butn,
+                                      reqfsub=reqfsub
                 )
                 ),
                 reply_markup=InlineKeyboardMarkup([
