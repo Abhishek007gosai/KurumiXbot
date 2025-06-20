@@ -7,9 +7,9 @@ autodel_cmd_pic = "https://files.catbox.moe/czyigc.jpg"
 SET_SHORTENER_CMD_TXT = "sʜᴏʀᴛɴᴇʀ ɪs {shortener_status}. ᴜsᴇ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄᴏɴғɪɢᴜʀᴇ ᴛʜᴇ sʜᴏʀᴛɴᴇʀ."
 
 #start message
-START_MSG = """<b><blockquote>Hᴇʏ! {first} Wᴇʟᴄᴏᴍᴇ Tᴏ Nᴇxᴜs Cᴏᴍᴍᴜɴɪᴛʏ. Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴜs ʏᴏᴜ ᴄᴀɴ ᴅᴏ sᴏ ʙʏ sᴜʙsᴄʀɪʙɪɴɢ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ</blockquote></a>\n<blockquote expandable></a>Gᴜɪᴅᴇ Tᴏ Wᴀᴛᴄʜ Vɪᴅᴇᴏ Wɪᴛʜ Sᴜʙᴛɪᴛʟᴇs Iғ Sᴜʙᴛɪᴛʟᴇs Nᴏᴛ Sʜᴏᴡɪɴɢ\n</a>❏ ᴛᴜᴛᴏʀɪᴀʟ\n</a>├ <a href="https://telegra.ph/HOW-TO-WATCH-04-20-3">Cʟɪᴄᴋ Hᴇʀᴇ </a></blockquote expandable></a>\n<blockquote>❏ Hᴇʟᴘʟɪɴᴇ\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</blockquote></a>\n<blockquote>Tʜᴀɴᴋs Fᴏʀ ʏᴏᴜʀ Sᴜᴘᴘᴏʀᴛ</blockquote></a>\nHᴇʟᴘʟɪɴᴇ ʙᴏᴛ @EternalsHelplineBot</b>"""
+START_MSG = """<b><blockquote>Hᴇʏ! {first} Wᴇʟᴄᴏᴍᴇ Tᴏ Nᴇxᴜs Cᴏᴍᴍᴜɴɪᴛʏ. Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴜs ʏᴏᴜ ᴄᴀɴ ᴅᴏ sᴏ ʙʏ sᴜʙsᴄʀɪʙɪɴɢ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ</blockquote></a>\n<blockquote expandable></a>Gᴜɪᴅᴇ Tᴏ Wᴀᴛᴄʜ Vɪᴅᴇᴏ Wɪᴛʜ Sᴜʙᴛɪᴛʟᴇs Iғ Sᴜʙᴛɪᴛʟᴇs Nᴏᴛ Sʜᴏᴡɪɴɢ\n</a>❏ ᴛᴜᴛᴏʀɪᴀʟ\n</a>├ <a href="https://telegra.ph/HOW-TO-WATCH-04-20-3">Cʟɪᴄᴋ Hᴇʀᴇ </a>\n❏ Hᴇʟᴘʟɪɴᴇ\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</blockquote expandable></a>\n<blockquote>Tʜᴀɴᴋs Fᴏʀ ʏᴏᴜʀ Sᴜᴘᴘᴏʀᴛ</blockquote></a>\nHᴇʟᴘʟɪɴᴇ ʙᴏᴛ @EternalsHelplineBot</b>"""
 #Force sub message 
-FORCE_MSG = """<b><blockquote>Hᴇʟʟᴏ!! {first} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</blockquote></a>Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, Pʟᴇᴀsᴇ sᴜʙsᴄʀɪʙᴇ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ʙᴏᴛ ᴀɢᴀɪɴ</a>\nFᴏʀ Oɴɢᴏɪɴɢ Aɴɪᴍᴇ ~ <a href="https://t.me/Anime_Ongoing_Airing">ᴏɴɢᴏɪɴɢ ᴀɪʀɪɴɢs</a></b>"""
+FORCE_MSG = """<b><blockquote>Hᴇʟʟᴏ!! {first} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</blockquote></a>Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, Pʟᴇᴀsᴇ sᴜʙsᴄʀɪʙᴇ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ʙᴏᴛ ᴀɢᴀɪɴ</a>\nFᴏʀ Oɴɢᴏɪɴɢ Aɴɪᴍᴇ ~ <a href="https://t.me/Anime_Ongoing_Airing">ᴏɴɢᴏɪɴɢ ᴀɪʀɪɴɢs</a>\n❏ Hᴇʟᴘʟɪɴᴇ\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</b>"""
 
 CMD_TXT = """<b>» ʙᴀsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :
 
@@ -26,11 +26,11 @@ CMD_TXT = """<b>» ʙᴀsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :
 BAN_TXT = "<b><blockquote> <a href=\"https://telegra.ph/You-Are-Stalker-Stay-Away-From-Us-05-12\">ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ʙᴇᴄᴏᴜsᴇ ʏᴏᴜ'ʀᴇ sᴛᴀʟᴋᴇʀ</a></blockquote></b>"
 
 
-HELP_TEXT = """<b><blockquote><a>Hᴇʟʟᴏ!! Wᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</a>\nYᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</a>\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</a>\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ</a></blockquote>\nHᴇʟᴘʟɪɴᴇ ʙᴏᴛ @EternalsHelplineBot</a>\n<i>◈ sᴛɪʟʟ ʏᴏᴜ ʜᴀᴠᴇ ᴅᴏᴜʙᴛ ᴀɴᴅ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ</i></b>"""
+HELP_TEXT = """<b><blockquote><a>Hᴇʟʟᴏ!! Wᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</a></blockquote>\n<blockquote>Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</a>\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</a>\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ</a></blockquote></a>\n<i>◈ sᴛɪʟʟ ʏᴏᴜ ʜᴀᴠᴇ ᴅᴏᴜʙᴛ ᴀɴᴅ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ</i></b>"""
 
-ABOUT_TXT = """<b><blockquote>🤖ᴍʏ ɴᴀᴍᴇ: {botname}\n\n◈sᴜᴘʀᴇᴀᴍ : <a href='https://t.me/AnimeNexusNetwork'>ɴᴇᴛᴡᴏʀᴋ</a>\n◈ᴀɴɪᴍᴇ : <a href='https://t.me/Anime_Eternals'>ᴀɴɪᴍᴇ ᴇᴛᴇʀɴᴀʟꜱ</a>\n◈ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ: <a href='https://t.me/Anime_Ongoing_Airing'>ᴏɴɢᴏɪɴɢ ᴀɪʀɪɴɢꜱ</a>\n◈ᴇᴄᴄʜɪ : <a href='https://t.me/Ecchi_Dex'>ᴇᴄᴄʜɪ ᴅᴇx</a>\n◈ʜᴇʟᴘʟɪɴᴇ : <a href='https://t.me/EternalsHelplineBot'>ʜᴇʟᴘʟɪɴᴇ</a></b></blockquote>"""
+ABOUT_TXT = """<b><blockquote>◈sᴜᴘʀᴇᴀᴍ : <a href='https://t.me/AnimeNexusNetwork'>ɴᴇᴛᴡᴏʀᴋ</a>\n◈ᴀɴɪᴍᴇ : <a href='https://t.me/Anime_Eternals'>ᴀɴɪᴍᴇ ᴇᴛᴇʀɴᴀʟꜱ</a>\n◈ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ: <a href='https://t.me/Anime_Ongoing_Airing'>ᴏɴɢᴏɪɴɢ ᴀɪʀɪɴɢꜱ</a>\n◈ᴇᴄᴄʜɪ : <a href='https://t.me/Ecchi_Dex'>ᴇᴄᴄʜɪ ᴅᴇx</a>\n◈ʜᴇʟᴘʟɪɴᴇ : <a href='https://t.me/EternalsHelplineBot'>ʜᴇʟᴘʟɪɴᴇ</a></b></blockquote>"""
 
-SETTING_TXT = """<b><blockquote><a>Hᴇʟʟᴏ!! Wᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</a>\nYᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, Pʟᴇᴀsᴇ sᴜʙsᴄʀɪʙᴇ sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</a>\n\n❏ Hᴇʟᴘʟɪɴᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</a>\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</a></blockquote></b>"""
+SETTING_TXT = """<b><blockquote><a>Hᴇʟʟᴏ!! Wᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</a></blockquote>\n<blockquote>Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, Pʟᴇᴀsᴇ sᴜʙsᴄʀɪʙᴇ sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</a>\n\n❏ Hᴇʟᴘʟɪɴᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</a>\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</a></blockquote></b>"""
 
 STATS_TXT = """<b>» Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
 <blockquote expandable>» ᴛᴏᴛᴀʟ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ:  <b>{total_fsub}</b>
@@ -40,7 +40,7 @@ STATS_TXT = """<b>» Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
 » ᴘʀᴏᴛᴇᴄᴛ ᴄᴏɴᴛᴇɴᴛ:  <b>{protect_content}</b>
 » ʜɪᴅᴇ ᴄᴀᴘᴛɪᴏɴ:  <b>{hide_caption}</b>
 » ᴄʜᴀɴɴᴇʟ ʙᴜᴛᴛᴏɴ:  <b>{chnl_butn}</b>
-» ʀᴇǫᴜᴇsᴛ ғsᴜʙ ᴍᴏᴅᴇ: <b>{reqfsub}</b></blockquote>"""
+» ʀᴇǫᴜᴇsᴛ ғsᴜʙ ᴍᴏᴅᴇ: <b>{reqfsub}</b></blockquote></b>"""
 
 on_txt, off_txt = "ᴇɴᴀʙʟᴇᴅ ✅", "ᴅɪsᴀʙʟᴇᴅ ❌"
 
