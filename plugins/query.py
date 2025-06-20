@@ -160,15 +160,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
             await query.edit_message_media(
                 InputMediaPhoto(random.choice(PICS),
-                                SETTING_TXT.format(
-                                    total_fsub=total_fsub,
-                                    total_admin=total_admin,
-                                    total_ban=total_ban,
-                                    autodel_mode=autodel_mode,
-                                    protect_content=protect_content,
-                                    hide_caption=hide_caption,
-                                    chnl_butn=chnl_butn,
-                                    reqfsub=reqfsub
+                                HELPLINE_TXT.format(
+                                      first=query.from_user.first_name,
+                                      last=query.from_user.last_name,
+                                      username=None if not query.from_user.username else '@' + query.from_user.username,
+                                      mention=query.from_user.mention,
+                                      id=query.from_user.id
                 )
                 ),
                 reply_markup=InlineKeyboardMarkup([
