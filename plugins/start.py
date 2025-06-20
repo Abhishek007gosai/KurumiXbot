@@ -1,5 +1,3 @@
-
-
 import asyncio
 import base64
 import logging
@@ -100,12 +98,12 @@ async def start_command(client: Client, message: Message):
                 remaining_time = int(MIN_VERIFY_TIME - (time.time() - generated_time))
                 logging.warning(f"ᴜsᴇʀ {id} ᴛʀɪᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ ᴛᴏᴏ ᴇᴀʀʟʏ. ʀᴇᴍᴀɪɴɪɴɢ ᴛɪᴍᴇ : {remaining_time} sec")
                 return await message.reply_video(
-			video = "https://envs.sh/ekQ.mp4",
+			video = "https://t.me/+wekKcN1tjbAxY2U1",
 			caption = "<blockquote><b>🚨 Bʏᴘᴀss Aᴛᴛᴇᴍᴘᴛ Dᴇᴛᴇᴄᴛᴇᴅ! 🚨</blockquote>\n\n» ᴡᴀʀɴɪɴɢ...!!!</b> ʏᴏᴜ ᴍᴜsᴛ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ᴀᴄᴄᴇss ᴛʜᴇ ғɪʟᴇ. ɴᴏ sʜᴏʀᴛᴄᴜᴛs, ɴᴏ ᴛʀɪᴄᴋs! ᴀɴʏ ᴀᴛᴛᴇᴍᴘᴛ ᴛᴏ ʙʏᴘᴀss ᴛʜᴇ sʏsᴛᴇᴍ ᴡɪʟʟ ᴛʀɪɢɢᴇʀ ᴀɴ ɪɴsᴛᴀɴᴛ ʙᴀɴ! 🚫🔥",
 		        reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("• ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ᴀɢᴀɪɴ  •", url=f"https://t.me/{client.username}?start=start")],
                     [InlineKeyboardButton("• ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url=TUT_VID),
-		    InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ •", url = "https://t.me/umseen") ]
+		    InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url = "https://t.me/EternalsHelplineBot") ]
                 ])
 		)
 
@@ -134,7 +132,7 @@ async def start_command(client: Client, message: Message):
 
             return await message.reply_photo(
                 photo=TOKEN_PIC,
-                caption=f"<blockquote><b>›› Hey!!, {message.from_user.mention} ~</b></blockquote>\n\n<i>Your Ads token is expired, refresh your token and try again.</i> \n\n<b>Token Timeout:</b> {get_exp_time(VERIFY_EXPIRE)} \n\n<blockquote expandable><b>What is token?</b> \n<i>This is an ads token. If you pass 1 ad, you can use the bot for {get_exp_time(VERIFY_EXPIRE)} after passing the ad.</i>\n\nOnce done you will <a href='https://t.me/Battousai_Network/31'>get access to all our 6 bots</a> for {get_exp_time(VERIFY_EXPIRE)} which are ⬇️\n\n» @Sukuna_Sama_Bot\n» @Devil_Fruit_Bot\n» @Lord_Aizen_Raven_Bot\n» @Hitokiri_Battousai_Bot\n» @pirate_hunter_zoro_raven_bot\n» @Black_Goku_Raven_Bot\n\n<b>APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER</b></blockquote>",
+                caption=f"<b><blockquote>Your Ads token is expired, refresh your token and try again</blockquote>\nToken Timeout: {get_exp_time(VERIFY_EXPIRE)}\n\nᴡʜᴀᴛ ɪs ᴛʜᴇ ᴛᴏᴋᴇɴ??\nᴛʜɪs ɪs ᴀɴ ᴀᴅs ᴛᴏᴋᴇɴ. ᴘᴀssɪɴɢ ᴏɴᴇ ᴀᴅ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴜsᴇ ᴛʜᴇ ᴏᴜʀ ᴀʟʟ ʙᴏᴛs ғᴏʀ {get_exp_time(VERIFY_EXPIRE)}\n\nAPPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER\n<blockquote>Important Notice‼️Once you click on the link do not go back/skip or close the link If you close it, your token will expire. If you accidentally close it, /start the bot and verify again‼️</blockquote></a>\n<blockquote>We are adding a token system so that our work can continue. We aren't earning anything from this I hope you guys will still support us</blockquote></a>\n<blockquote>❏ ʜᴇʟᴘᴅᴇsᴋ\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</blockquote></b>",
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("»  ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴠᴇʀɪғʏ  «", url=link)],
                     [InlineKeyboardButton("» ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ/ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ «", url=TUT_VID)]
