@@ -217,10 +217,10 @@ async def start_command(client: Client, message: Message):
                         
     else:   
         reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("• ᴄʟɪᴄᴋ ғᴏʀ ᴍᴏʀᴇ •", callback_data='about')],
-                    [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
-                     InlineKeyboardButton(' ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/metaui')],
-                    [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/umseen')],
+                    [InlineKeyboardButton("• ᴄʟɪᴄᴋ ғᴏʀ ᴍᴏʀᴇ •", url='https://t.me/AnimeNexusNetwork/158')],
+                    [InlineKeyboardButton("• ʜᴇʟᴘʟɪɴᴇ •", callback_data='setting'),
+                     InlineKeyboardButton('• ᴏᴡɴᴇʀ •', url='https://t.me/EternalsHelplineBot')],
+                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ •", callback_data='about')],
                 ])
         await message.reply_photo(
             photo = random.choice(PICS),
