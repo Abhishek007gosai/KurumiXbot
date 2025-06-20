@@ -46,7 +46,7 @@ async def start_command(client: Client, message: Message):
     SHORTLINK_API = await db.get_shortener_api()
     TUT_VID = await db.get_tut_video()
     ADMINS = await db.get_all_admins()
-    MIN_VERIFY_TIME = 90  # Minimum time (in seconds) before verification
+    MIN_VERIFY_TIME = 120  # Minimum time (in seconds) before verification
 
     logging.info(f"Received /start command from user ID: {id}")
 
