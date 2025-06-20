@@ -166,8 +166,20 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                                       username=None if not query.from_user.username else '@' + query.from_user.username,
                                       mention=query.from_user.mention,
                                       id=query.from_user.id
-elif data == "stats":
-        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), "<b>» ᴘʟᴇᴀsᴇ wᴀɪᴛ ᴀ sᴇᴄᴏɴᴅ !!</b>"))
+                                    
+                )
+                ),
+                reply_markup=InlineKeyboardMarkup([
+                    [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'), InlineKeyboardButton(
+                        'ᴄʟᴏsᴇ •', callback_data='close')]
+                ]),
+            )
+        except Exception as e:
+            print(f"! Error Occurred on callback data = 'setting' : {e}")
+
+
+        elif data == "stats":
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), "<b>» ᴘʟᴇᴀsᴇ wᴀɪᴛ ᴀ sᴇᴄᴏɴᴅ!!</b>"))
         try:
             total_fsub = len(await db.get_all_channels())
             total_admin = len(await db.get_all_admins())
@@ -189,7 +201,6 @@ elif data == "stats":
                                     hide_caption=hide_caption,
                                     chnl_butn=chnl_butn,
                                     reqfsub=reqfsub
-                                    
                 )
                 ),
                 reply_markup=InlineKeyboardMarkup([
@@ -198,7 +209,7 @@ elif data == "stats":
                 ]),
             )
         except Exception as e:
-            print(f"! Error Occurred on callback data = 'setting' : {e}")
+            print(f"! Error Occurred on callback data = 'stats' : {e}")
 
     elif data == "start":
         await query.edit_message_media(
