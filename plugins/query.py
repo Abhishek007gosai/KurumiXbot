@@ -160,7 +160,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
             await query.edit_message_media(
                 InputMediaPhoto(random.choice(PICS),
-                                HELPLINE_TXT.format(
+                                SETTING_TXT.format(
                                       first=query.from_user.first_name,
                                       last=query.from_user.last_name,
                                       username=None if not query.from_user.username else '@' + query.from_user.username,
