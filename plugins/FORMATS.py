@@ -32,7 +32,7 @@ ABOUT_TXT = """<b><blockquote>🤖ᴍʏ ɴᴀᴍᴇ: {botname}\n\n◈sᴜᴘʀ�
 
 SETTING_TXT = """<b><blockquote><a>Hᴇʟʟᴏ!! Wᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</a>\nYᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, Pʟᴇᴀsᴇ sᴜʙsᴄʀɪʙᴇ sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ ᴊᴏɪɴ ᴀʟʟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!</a>\n\n❏ Hᴇʟᴘʟɪɴᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</a>\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</a></blockquote></b>"""
 
-STATS_TXT = = """<b>» Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
+STATS_TXT = """<b>» Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
 <blockquote expandable>» ᴛᴏᴛᴀʟ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ:  <b>{total_fsub}</b>
 » ᴛᴏᴛᴀʟ ᴀᴅᴍɪɴs:  <b>{total_admin}</b>
 » ᴛᴏᴛᴀʟ ʙᴀɴɴᴇᴅ ᴜsᴇʀs:  <b>{total_ban}</b>
