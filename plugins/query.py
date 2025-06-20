@@ -202,15 +202,16 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                                     hide_caption=hide_caption,
                                     chnl_butn=chnl_butn,
                                     reqfsub=reqfsub
-              )
-              ),
-              reply_markup=InlineKeyboardMarkup([
-                  [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'), InlineKeyboardButton(
-                      'ᴄʟᴏsᴇ •', callback_data='close')]
-              ]),
-          )
-      except Exception as e:
-          print(f"! Error Occurred on callback data = 'stats' : {e}")
+                )
+                ),
+                reply_markup=InlineKeyboardMarkup([
+                    [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='stats'), InlineKeyboardButton(
+                        'ᴄʟᴏsᴇ •', callback_data='close')]
+                ]),
+            )
+        except Exception as e:
+            print(f"! Error Occurred on callback data = 'stats' : {e}")
+                   
 
     elif data == "start":
         await query.edit_message_media(
