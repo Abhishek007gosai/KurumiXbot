@@ -110,12 +110,12 @@ def buttonStatus(pc_data: str, hc_data: str, cb_data: str) -> list:
 async def authoUser(query, id, owner_only=False):
     if not owner_only:
         if not any([id == OWNER_ID, await db.admin_exist(id)]):
-            await query.answer("❌ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪs ʙᴏᴛ ʙᴀʙᴇʏʏʏ...!!!", show_alert=True)
+            await query.answer("❌ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪs ʙᴏᴛ ᴍʏ ᴏᴡɴᴇʀ ɪs @EternalsHelplineBot!!!", show_alert=True)
             return False
         return True
     else:
         if id != OWNER_ID:
-            await query.answer("❌ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ ʙᴀʙᴇʏʏʏ...!!!", show_alert=True)
+            await query.answer("❌ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ ᴍʏ ᴏᴡɴᴇʀ ɪs @EternalsHelplineBot!!!", show_alert=True)
             return False
         return True
 
@@ -135,7 +135,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         user_link = f"https://t.me/{user.username}" if user.username else f"tg://openmessage?user_id={OWNER_ID}" 
         ownername = f"<a href={user_link}>{user.first_name}</a>" if user.first_name else f"<a href={user_link}>no name !</a>"
         await query.edit_message_media(
-            InputMediaPhoto("https://envs.sh/H2r.jpg", 
+            InputMediaPhoto("https://litter.catbox.moe/z1s4uo.jpg", 
                             ABOUT_TXT.format(
                                 botname = client.name,
                                 ownername = ownername, 
@@ -147,7 +147,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
 
     elif data == "setting":
-        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), "<b>» ᴘʟᴇᴀsᴇ wᴀɪᴛ ᴀ sᴇᴄᴏɴᴅ ʙᴀʙᴇʏʏ !!</b>"))
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), "<b>» ᴘʟᴇᴀsᴇ wᴀɪᴛ ᴀ sᴇᴄᴏɴᴅ !!</b>"))
         try:
             total_fsub = len(await db.get_all_channels())
             total_admin = len(await db.get_all_admins())
@@ -191,10 +191,10 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             )
             ),
             reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("• ᴄʟɪᴄᴋ ғᴏʀ ᴍᴏʀᴇ •", callback_data='about')],
-                    [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
-                     InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/metaui')],
-                    [InlineKeyboardButton("• ᴏᴜʀ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/umseen')],
+                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url='https://t.me/AnimeNexusNetwork/158')],
+                    [InlineKeyboardButton("• ʜᴇʟᴘʟɪɴᴇ •", callback_data='helpline'),
+                     InlineKeyboardButton('• ᴏᴡɴᴇʀ •', url='https://t.me/EternalsHelplineBot')],
+                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ •", callback_data='about')],
                 ]),
         )
 
