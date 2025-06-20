@@ -53,14 +53,14 @@ class Bot(Client):
         self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ-sʜᴀʀɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ᴛᴏᴋᴇɴ ғᴇᴀᴛᴜʀᴇ V5 ᴍᴀᴅᴇ ʙʏ ➪ @Urr_Sanjiii [Tᴇʟᴇɢʀᴀᴍ Usᴇʀɴᴀᴍᴇ]")
         self.LOGGER(__name__).info(f"{self.name} Bot Running..!")
-        self.LOGGER(__name__).info(f"ʜᴏsᴛᴇᴅ sᴜᴄᴇssғᴜʟʟʏ ʙᴀʙᴇʏʏʏ !! ✅")
+        self.LOGGER(__name__).info(f"ʜᴏsᴛᴇᴅ sᴜᴄᴇssғᴜʟʟʏ !! ✅")
         #web-response
         app = web.AppRunner(await web_server())
         await app.setup()
         bind_address = "0.0.0.0"
         await web.TCPSite(app, bind_address, PORT).start()
 
-        try: await self.send_message(OWNER_ID, text = f"<b><blockquote>ʙᴏᴛ sᴜᴄᴇssғᴜʟʟʏ ʀᴇsᴛᴀʀᴛᴇᴅ ʙᴏss ✅\n\n» ᴍʏ ᴜɪ ɪs ᴍᴀᴅᴇ ʙʏ @urr_sanjiii\n\nᴄʟɪᴄᴋ ᴏɴ : /start ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛ...!!!</blockquote></b>")
+        try: await self.send_message(OWNER_ID, text = f"<b><blockquote>ʙᴏᴛ sᴜᴄᴇssғᴜʟʟʏ ʀᴇsᴛᴀʀᴛᴇᴅ ʙᴏss ✅\n\nᴄʟɪᴄᴋ ᴏɴ : /start ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛ...!!!</blockquote></b>")
         except: pass
 
     async def stop(self, *args):
