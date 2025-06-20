@@ -23,7 +23,7 @@ CMD_TXT = """<b>» ʙᴀsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :
 
 <b>/status :</b> ᴠɪᴇᴡ ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs"""
 
-BAN_TXT = "<b><blockquote>sᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ 🚫</blockquote></b>"
+BAN_TXT = "<b><blockquote> <a href="https://telegra.ph/You-Are-Stalker-Stay-Away-From-Us-05-12">ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ʙᴇᴄᴏᴜsᴇ ʏᴏᴜ'ʀᴇ sᴛᴀʟᴋᴇʀ</a></blockquote></b>"
 
 HELP_TEXT = """<b>⁉️ ʜᴇʟʟᴏ {mention} ~
 
