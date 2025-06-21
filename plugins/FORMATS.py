@@ -11,6 +11,12 @@ START_MSG = """<b><blockquote>Hᴇʏ! {first} Wᴇʟᴄᴏᴍᴇ Tᴏ Nᴇxᴜs 
 #Force sub message 
 FORCE_MSG = """<b><blockquote>Hᴇʟʟᴏ!! {first} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <a href=https://t.me/Anime_Eternals>Aɴɪᴍᴇ Eᴛᴇʀɴᴀʟs</blockquote></a>Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ɪɴ ᴍʏ Cʜᴀɴɴᴇʟ/Gʀᴏᴜᴘ ғɪʀsᴛ, Pʟᴇᴀsᴇ sᴜʙsᴄʀɪʙᴇ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ ʙᴏᴛ ᴀɢᴀɪɴ</a>\nFᴏʀ Oɴɢᴏɪɴɢ Aɴɪᴍᴇ ~ <a href="https://t.me/Anime_Ongoing_Airing">ᴏɴɢᴏɪɴɢ</a>\n<blockquote>❏ Hᴇʟᴘʟɪɴᴇ\n├ ᴄʟɪᴄᴋ ʜᴇʀᴇ /help ᴛᴏ ɢᴇᴛ ʜᴇʟᴘᴅᴇsᴋ</blockquote></b>"""
 
+PREMIUM_CMD_TXT = """<b>›› /addpremium :</b> ᴀᴅᴅ ᴀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ
+<b>›› /premium_users :</b> ʟɪsᴛ ᴀʟʟ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀs
+<b>›› /remove_premium :</b> ʀᴇᴍᴏᴠᴇ ᴘʀᴇᴍɪᴜᴍ ꜰʀᴏᴍ ᴀ ᴜꜱᴇʀ
+<b>›› /myplan :</b> ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ sᴛᴀᴛᴜs
+<b>›› /count :</b> ᴄᴏᴜɴᴛ verifications"""
+
 CMD_TXT = """<b>» ʙᴀsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :
 
 <b>/batch :</b> ᴄʀᴇᴀᴛᴇ ɢʀᴏᴜᴘ ᴍᴇssᴀɢᴇs
