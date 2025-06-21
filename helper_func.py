@@ -17,6 +17,7 @@ import time
 from datetime import datetime
 from database.database import db
 import pytz
+from pyrogram import filters
 #=============================================================================================================================================================================
 # -------------------- HELPER FUNCTIONS FOR USER VERIFICATION IN DIFFERENT CASES -------------------- 
 #=============================================================================================================================================================================
@@ -191,10 +192,10 @@ def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-def premium(user_id):
-    # Your logic for checking if user is premium
-    return user_id in [7654385403]  # Example user IDs
+def premium_filter(_, __, message):
+    return message.from_user.id in [7654385403]  # Example premium user ID
 
+premium = filters.create(premium_filter)
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Check user subscription in Channels
 """async def is_subscribed(filter, client, update):
