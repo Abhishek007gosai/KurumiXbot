@@ -1,6 +1,3 @@
-
-
-
 import time
 import pymongo, os
 import motor
@@ -63,8 +60,6 @@ class Rohit:
         self.rqst_fsub_data = self.database['request_forcesub']
         self.rqst_fsub_Channel_data = self.database['request_forcesub_channel']
         self.store_reqLink_data = self.database['store_reqLink']
-
-        self.premium_data = self.database['premium']
 
     # Shortener Token
     async def set_shortener_url(self, url):
