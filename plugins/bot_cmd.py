@@ -6,12 +6,12 @@ from config import OWNER_ID, SUPPORT_GROUP
 import time
 from datetime import datetime 
 from pyrogram import Client, filters
-from helper_func import is_admin, get_readable_time, banUser , premium
-from plugins.FORMATS import HELP_TEXT, BAN_TXT, CMD_TXT, USER_CMD_TXT, FSUB_CMD_TXT , PREMIUM_CMD_TXT
+from helper_func import is_admin, get_readable_time, banUser
+from plugins.FORMATS import HELP_TEXT, BAN_TXT, CMD_TXT, USER_CMD_TXT, FSUB_CMD_TXT
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
 from database.database import db
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from database.db_premium import *
+
 #............................
 #Settings for banned users..
 @Bot.on_message(banUser & filters.private & filters.command(['start', 'help']))
@@ -298,7 +298,4 @@ async def help(client: Client, message: Message):
         return await message.reply(f"<b><i>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @EternalsHelplineBot</i></b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
    
 #=====================================================================================##
-@Bot.on_message(filters.command('premium') & filters.private & ~premium)
-async def fsub_commands(client: Client, message: Message):
-    button = [[InlineKeyboardButton("•  ᴄʟᴏsᴇ  •", callback_data="close")]]
-    await message.reply(text=PREMIUM_CMD_TXT, reply_markup=InlineKeyboardMarkup(button), quote=True)
+
