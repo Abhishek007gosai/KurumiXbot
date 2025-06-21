@@ -190,6 +190,11 @@ def get_readable_time(seconds: int) -> str:
     up_time += ":".join(time_list)
     return up_time
 
+
+def premium(user_id):
+    # Your logic for checking if user is premium
+    return user_id in [7654385403]  # Example user IDs
+
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Check user subscription in Channels
 """async def is_subscribed(filter, client, update):
