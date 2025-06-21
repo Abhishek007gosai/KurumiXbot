@@ -105,7 +105,7 @@ async def send_text(client: Bot, message: Message):
         # Final status update
         final_status = f"""<b>{complete_msg}
 
-<blockquote>ᴅᴏɴᴇ:</b> [{final_progress_bar}] {percent_complete:.0%}</blockquote>
+final_status = f"""<b>ᴅᴏɴᴇ:</b> [{final_progress_bar}] {percent_complete:.0%}</b>
 
 <b>🚻 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{total}</code>
 ✅ sᴜᴄᴄᴇssғᴜʟ: <code>{successful}</code>
