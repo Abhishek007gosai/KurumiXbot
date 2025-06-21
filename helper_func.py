@@ -1,7 +1,3 @@
-# +++ Ui Made By Sanjiii [telegram username: @Urr_Sanjiii] +++
-
-
-
 import binascii
 import base64
 import re
@@ -190,12 +186,6 @@ def get_readable_time(seconds: int) -> str:
     time_list.reverse()
     up_time += ":".join(time_list)
     return up_time
-
-
-def premium_filter(_, __, message):
-    return message.from_user.id in [7654385403]  # Example premium user ID
-
-premium = filters.create(premium_filter)
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Check user subscription in Channels
 """async def is_subscribed(filter, client, update):
