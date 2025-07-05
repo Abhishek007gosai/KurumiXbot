@@ -1,4 +1,6 @@
 from bot import Bot
+import asyncio
 
-Bot().run()
-
+if __name__ == "__main__":
+    bot = Bot()
+    asyncio.run(bot.start())
